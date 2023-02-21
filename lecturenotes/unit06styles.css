@@ -1,0 +1,12 @@
+/* h1 is our selector, color is our property, and crimson is our value */
+h1, p {
+    color:darkviolet;
+    /* font-size: 300%; font size by 300% is 3 times default size */
+    /* 50% bigger than the default font size */
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+p a {color:springgreen;}
+#firstlink {color:orange;}
+.text {color:darkblue;}
