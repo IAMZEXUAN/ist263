@@ -1,0 +1,32 @@
+body { font-family: 'Times New Roman', serif; }
+h1 { color:darkblue; }
+.evenrow { background-color:lightgray; }
+h1 { 
+    font-size: 3em;
+    text-align: center;
+}
+.First { 
+    font-size: 1.5em;
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+.Others {
+    background-color: lightskyblue;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 45px;
+}
+.Flexbox2, .Column1, .Column2 {
+    display: flex;
+}
+.Flexbox2 {
+    justify-content: space-between;
+}
+.Column1 {
+    flex-basis: 70%;
+    margin: 20px;
+    padding: 50px;
+    justify-content: space-around;
+}
