@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ally</title>
+    <style>
+        .skip {
+            background-color: fuchsia;
+            padding: 5px;
+            border: 1px solid black;
+            text-decoration: none;
+            position: absolute; /* position element relative to top left of viewport */
+            top: 10px;
+            left: -999px; /* push it off the left side, -999 is iconic */
+        }
+        .skip:focus {
+            left: 10px; /* bring it back when they tab to it */
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <!-- bookmark links help you jump around the page -->
+        <a href="#main" class="skip" tabindex="1">Skip to content</a><br>
+        <a href="https://www.syracuse.edu/" tabindex="3">Syracuse University</a><br>
+        <a href="https://blackboard.syracuse.edu/ultra/institution-page" tabindex="2">Blackboard</a><br>
+        <a href="https://library.syracuse.edu/" tabindex="1">Library</a>
+    </div>
+    <section>
+        <h1>Main content</h1>
+        <p id="main">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non laborum minus amet ea vero recusandae corrupti ipsum sit delectus deleniti nihil enim assumenda inventore placeat soluta nesciunt error, aspernatur dolorum?</p>
+    </section>
+</body>
+</html>
