@@ -21,3 +21,39 @@ nav a {
     margin: 10px;
     padding: 5px;
 }
+section {
+    background-color: #E1EEDD;
+}
+.flex1 {
+    display: flex;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+img.twin {
+    height: 50%;
+    width: 50%;
+}
+.flex1 article h2 {
+    font-family: serif;
+    font-size: 180%;
+    margin: 10px;
+}
+.flex1 article p {
+    font-family: serif;
+    font-size: 120%;
+    margin: 10px;
+}
+.flex2 {
+    display: flex;
+    justify-content: space-between;
+}
+img.silver {
+    height: 90%;
+    width: 90%;
+}
+img.asian {
+    height: 90%;
+    width: 90%;
+}
