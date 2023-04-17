@@ -1,5 +1,5 @@
 /* Header */
-header {
+.intro {
     background-color: #183A1D;
     border-radius: 5px;
 }
@@ -29,7 +29,7 @@ nav a:hover {
 section {
     background-color: #E1EEDD;
 }
-section h1 {
+.content h1 {
     font-family: serif;
     color: #000000;
     text-align: center;
