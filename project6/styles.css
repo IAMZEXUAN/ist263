@@ -99,6 +99,9 @@ footer {
 .flex3 div a:hover {
     color: #FEFBE9;
 }
+.flex3 .email, .social {
+    padding-top: 100px;
+}
 .map {
     padding-bottom: 20px;
 }
