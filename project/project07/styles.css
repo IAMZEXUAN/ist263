@@ -1,0 +1,107 @@
+/* Header */
+.intro {
+    background-color: #183A1D;
+    border-radius: 5px;
+}
+h1 {
+    font-family: fantasy;
+    font-size: 250%;
+    color: #FEFBE9;
+    padding-top: 35px;
+    padding-left: 20px;
+}
+nav {
+    display: flex;
+    background-color: #F0A04B;
+    justify-content: right;
+}
+nav a {
+    font-family: fantasy;
+    color: #000000;
+    margin: 10px;
+    padding: 5px;
+}
+nav a:hover {
+    color: #FEFBE9;
+}
+
+/* Section */
+section {
+    background-color: #E1EEDD;
+}
+.content h1 {
+    font-family: serif;
+    color: #000000;
+    text-align: center;
+}
+.flex1 {
+    display: flex;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+img.twin {
+    height: 50%;
+    width: 50%;
+}
+.flex1 article h2 {
+    font-family: serif;
+    font-size: 180%;
+    margin: 10px;
+}
+.flex1 article p {
+    font-family: serif;
+    font-size: 120%;
+    margin: 10px;
+}
+.flex2 {
+    display: flex;
+    padding-left: 60px;
+}
+img.silver {
+    height: 90%;
+    width: 90%;
+}
+img.asian {
+    height: 90%;
+    width: 90%;
+}
+.silvertext {
+    font-family: serif;
+    color: #000000;
+    padding-left: 250px;
+}
+.asiantext {
+    font-family: serif;
+    color: #000000;
+    padding-left: 250px;
+}
+.silvertext:hover {
+    color: #FEFBE9;
+}
+.asiantext:hover {
+    color: #FEFBE9;
+}
+
+/* Footer */
+footer {
+    background-color: #F0A04B;
+}
+.flex3 {
+    display: flex;
+    justify-content: space-around;
+}
+.flex3 div, a {
+    font-family: serif;
+    color: #000000;
+}
+.flex3 div a:hover {
+    color: #FEFBE9;
+}
+.flex3 .email, .social {
+    padding-top: 100px;
+}
+.map {
+    padding-bottom: 20px;
+}
