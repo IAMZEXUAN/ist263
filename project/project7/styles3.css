@@ -34,7 +34,7 @@ h1 {
 }
 
 /* Section */
-img.silver {
+img.asian {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -43,12 +43,11 @@ img.silver {
     max-width: 100%;
 }
 
-.silverguide {
+.asianguide {
     color: #ffffff;
     font-family: serif;
     font-size: 250%;
     text-align: center;
-    padding-top: 5%;
 }
 
 .guidelines {
