@@ -34,80 +34,13 @@ h1 {
 }
 
 /* Section */
-section {
-    background-color: #000000;
-    margin-top: 120px;
-}
-
-img.twin {
+img.silver {
     display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
     width: 200%;
     max-width: 100%;
-}
-
-.flex1 article {
-    display: block;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 5%;
-}
-
-.flex1 article h2 {
-    font-family: serif;
-    font-size: 250%;
-    text-align: center;
-    color: #ffffff;
-}
-
-.flex1 article p {
-    font-family: serif;
-    font-size: 150%;
-    color: #ffffff;
-}
-
-.flex2 {
-    display: flex;
-    padding-left: 60px;
-    padding-top: 90px;
-}
-
-img.silver {
-    height: 90%;
-    width: 90%;
-    max-width: 100%;
-}
-
-img.asian {
-    height: 90%;
-    width: 90%;
-    max-width: 100%;
-}
-
-.silvertext {
-    font-family: serif;
-    font-size: 130%;
-    color: #ffffff;
-    padding-left: 250px;
-    text-decoration-line: none;
-}
-
-.asiantext {
-    font-family: serif;
-    font-size: 130%;
-    color: #ffffff;
-    padding-left: 250px;
-    text-decoration-line: none;
-}
-
-.silvertext:hover {
-    color: #F0A04B;
-}
-
-.asiantext:hover {
-    color: #F0A04B;
 }
 
 /* Footer */
