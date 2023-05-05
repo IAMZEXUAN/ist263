@@ -30,7 +30,8 @@
 </header>
 
 <section>
-    <img class="silver" src="../media/Silver2.jpg" alt="Silver"><br>
+    <img class="silver" src="../media/Silver.jpg" alt="Silver">
+    <img class="silver" src="../media/Silver2.jpg" alt="Silver">
 
     <h2 class="silverguide">Silver Arowana Care Guide</h2>
 
@@ -89,5 +90,22 @@
         <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.934260352!2d-76.11982068839494!3d43.02177087101864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f37d82c4d06f%3A0x1384be7e1772462c!2s401%20Small%20Rd%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1681691091520!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
     </div>
 </footer>
+
+<script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("silver");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+</script>
 </body>
 </html>
