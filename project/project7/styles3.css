@@ -120,3 +120,7 @@ aside p {
 .map {
     padding-bottom: 20px;
 }
+
+.social a {
+    text-decoration-line: none;
+}
